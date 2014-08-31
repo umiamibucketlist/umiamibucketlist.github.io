@@ -4,9 +4,16 @@ body{
 	background-color: orange;
 }
 
-p, h1, h2, h3{
+p, h1, h2, h3, h4{
 	padding: 0;
 	margin: 0;
+}
+
+.caption {
+	font-size: 0.85em;
+	color: green;
+	background: white;
+	margin-bottom: 1.25em;
 }
 
 #container {
@@ -14,7 +21,11 @@ p, h1, h2, h3{
 	max-width: 75%;
 }
 
-#intro{
+p{
+	margin-bottom: 0.5em;
+}
+
+footer{
 	clear: both;
 	font-size: 0.9em;
 	padding-top: 0.25em;
@@ -62,6 +73,33 @@ h2{
 	margin-bottom: 0.5em;
 }
 
+h3{
+	font: 'Shadows Into Light Two', cursive 2em;
+	letter-spacing: 0.05em;
+	color: green;
+	margin-bottom: 1em;
+}
+
+h3 a{
+	color: black;
+	text-decoration: none;
+}
+
+h3 a:hover{
+	color: white;
+}
+
+h4{
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 2em;
+	letter-spacing: 0.05em;
+	color: black;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	border-bottom: black solid 1px;
+
+}
+
 nav ul{
 	color: white;
 	list-style-type: none;
@@ -106,15 +144,26 @@ ol li{
 
 ol li a{
 	text-decoration: line-through;
+	color: green;
 }
 
 section a{
-	color: white;
+	color: green;
 	text-decoration: none;
 }
 
-section a:hover{
-	color:green;
+ol li a:hover, section a:hover{
+	color: white;
+}
+
+footer a{
+	color: white;
+	font-size: 1.1em;
+	text-decoration: none;
+}
+
+footer a:hover{
+	color: green;
 }
 
 .centered{
